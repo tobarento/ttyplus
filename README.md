@@ -47,6 +47,12 @@ $ go get github.com/sorenisanerd/gotty
 Usage: gotty [options] <command> [<arguments...>]
 ```
 
+- More examples:
+   ```
+      gotty -w --credential Apple:Orange3# --ws-origin ".*" bash
+      gotty -w --random-url --ws-origin ".*" bash
+   ``` 
+
 Run `gotty` with your preferred command as its arguments (e.g. `gotty top`).
 
 By default, GoTTY starts a web server at port 8080. Open the URL on your web browser and you can see the running command as if it were running on your terminal.
